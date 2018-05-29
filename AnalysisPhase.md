@@ -27,7 +27,19 @@ It must be taken into account that **Device-specific information** is subject to
 |---|
 | todo |
 
-Was gilt als personenbezogenes Datum im Kontext Geräteidentifikation. -> Alle eineindeutigen IDs und IP Adresse.
+
+Access to device-specific information (e.g. UDID, IMEI, MAC addresses, etc.) MUST be obtained from the user via an Opt-In and MAY only take place to the extent that is really required.
+Many app manufacturers claim that device IDs are “anonymized” using hash values. As this is actually pseudonymization2 and not anonymization, the manufacturers are wrong here.  There is no reason why these IDs should be accessed to recognize users. 
+
+It is another matter, however, with regard to the “Tracking-IDs“ created specifically by the operating system manufacturers (IDFA (Identifier for Advertisers, iOS); AAID (Android Advertising ID, Android)). These MUST be transmitted in encrypted form (see → 4.1.1 Encrypted communication and validation) and the Opt-In will also be obligatory in future. The different development levels of the data protection standards for mobile operating systems mean a standard evaluation is not possible.
+
+With iOS (from version 6.0) it is possible to change the IDFA or refuse utilization of it for the most parts. The programmer is however responsible for respecting this refusal option.
+The way the Android Advertising ID works in Android is similar to the way of the IDFA in iOS. It is generated completed dynamically by the user with a Google app that has been available since Android 4.0.x and can be reset at any time. It is mandatory to use for user identification as of August 1, 2014 when it comes to user tracking. It does also have an option for limiting usage.
+
+There are also unique IDs that can be used for authentication or user identification issues. It is not possible to change the Android ID in Android, which is often used by apps for tracking purposes, without installing a Custom ROM3 or modifying the user’s rights using a Root4 software/tool. The same applies to the UDID on iOS devices, that can only be faked on a device with a Jailbreak5 installed. Use of these IDs is mostly prohibited by the operating systems manufacturer (especially for ad tracking purposes).
+
+ - [] pasted from MTD
+
 
 ##Privacy Policy
 
@@ -102,6 +114,12 @@ Special categories of data are placed under particular protection of the law.
      ​|Legal Hint: "Data Protection Level"|
      |---|
      | Add legal hint on data protection levels|
+
+<br>
+
+| Legal Hint: "Data Economy"|
+|---|
+|Access to data (e.g. PIM, media, etc.) MUST take place in line with data economy1 according to §3a BDSG. Data MUST NOT be passed on to third parties without an Opt-In from the user. Utilization of the data SHOULD be explained to the user (why does the application need this access, and what will not function if I do not provide this access?).|
 
 #### Sensitive Data
 
