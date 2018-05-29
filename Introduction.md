@@ -2,20 +2,23 @@
 
 The goal of the document is to motivate and support the development of privacy-respecting applications. 
 
-*Privacy can be a great **feature** for your users and be a **competetive argument**. Moreover in order to **stay out of trouble with new EU data protection regulation** some things need to be taken into account during app development*
+*Privacy can be a great **feature** for your users and be a **competetive argument** or **Unique Selling Point**. 
+Moreover in order to **stay out of trouble with new EU data protection regulation** some things need to be taken into account during app development.*
 
-Most guides focus either on the legal aspects of protecting the data of end users or they focus on technical measurements to secure processed data. This document is intended to fill the gap between both worlds and should provide an overview into the different aspects that need to be respected when developing applications.
+Most guides focus either on the **legal** aspects of protecting the data of end users or they focus on **technical** measurements to secure processed data. 
+This document is intended to fill the gap between both worlds and should provide an overview into the different aspects that need to be respected when developing applications.
 
 Depending on the use cases of your app, different things need to be considered about the protection of data. Not respecting certain aspects for certain scenarios might lead to legal consequences. 
 
 **This guideline outlines the relevant concepts to find out where protection of data comes into play and how!**
 
-The goal of the document is to act as an interface between technical solutions and legal aspects, references to both are given to dive deeper into the subjects if you got curious. 
-[comment]:"legal foundation, not only aspects, enable you to be compliant"
+The goal of the document is to act as **an interface between technical solutions and legal aspects**, references to both are given to dive deeper into the subjects if you got curious. 
 
-The legal aspects in this document are based on the *General Data Protection Regulation* (GDPR), which becomes effective in May 25, 2018.
 
-## In very short at your fingertips...
+**Following this guideline will help you to meet the legal requirements of the new European Data Protection Regulation.**
+
+
+## In very short at your fingertips: Excecutive Summary
 
 [comment]:"add here a one page summary of the content and motivate a structured development along the lines outlined in the rest of the document. give hints to papers and material referenced and attached to this document"
 

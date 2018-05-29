@@ -17,7 +17,7 @@ Software audits are a systematic examination of the software. The goal of this p
 Ist bisher alles auf das Essentielle heruntergebrochen. Soll das noch ausführlicher?
 
 
-Es gibt noch so ein paar Tests, die in sicherheitskritischer Software häufig eingesetzt werden. Sind die hier noch angebracht, oder ist das overkill?
+Es gibt noch so ein paar Tests, die in sicherheitskritischer Software häufig eingesetzt werden. Sind die hier noch angebracht, oder ist das overkill? -> kurz beschreiben und referenzieren?
 - Data flow testing?
 - Control flow testing?
 - Modified condition/decision coverage testing?

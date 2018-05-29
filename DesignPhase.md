@@ -64,9 +64,9 @@ Questions that should be addressed during the Privacy Risk Assessment:
   * Which data is stored on remote devices?
   * What risks through potential privacy leaks are linked to the place of storage?
 
-## Problem
+## Problems
 
-* [comment]:"was heisst hier problematisch? Hier gibt es ein Risiko im Sinne des RA? Sinn der Section also Lösungen für Probleme zu diskutieren?"
+* [comment]:"was heisst hier problematisch? Hier gibt es ein Risiko im Sinne des RiskAssessments? Sinn der Section also Lösungen für Probleme zu diskutieren?"
 
 
 * Data receiving problematically? (Datenabruf problematisch? (Metadata & PKR))
@@ -102,10 +102,13 @@ Possible counter measures include:
 **(an jedem Schritt des Design möglichst überlegen wie man hier datenschutzfreundlich umsetzen kann...)**
 
 TODO: Add links and examples
+* comment: design decisions... (TODO)
 
 ## Organisational Measures
+
 Organisational measures include:
 [comment]:"reflexivity, communication, testification"
+
 * Transparency
   * Communication of risks and purpose of data collection to the end user
 * Intervenability

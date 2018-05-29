@@ -13,7 +13,20 @@ What will the app do for the end-user? It might seem obvious, but **it is a good
 
 Especially it is important to carefully think which user data is needed and how it will be processed.
 
-- [ ] add textbox about purpose binding?
+<br>
+
+
+| "Legal Hint" - Purpose Binding  |
+|---|
+|   Personenbezogene Daten dürfen aufgrund Art. 5 Abs. 1 b der Datenschutz-Grundverordnung (DSGVO) nur für festgelegte, eindeutige und rechtmäßige Zwecke verarbeitet werden. Wenn dies erfüllt ist, ist weiter zu beachten: die Daten dürfen nach Art. 5 Abs. 1 c DSGVO nur so weit verarbeitet werden, wie es angemessen und erheblich ist für den Zweck. Es dürfen also nicht mehr Daten verwendet werden als nötig, nicht länger als nötig und die Verarbeitung darf nicht weiter gehen als nötig. |
+|**Determining the purpose is important for deciding upon the functionality that may be included in the app, and if and how user data needs to be processed.**|
+
+
+<br>
+
+| "Example" - Purpose Binding |
+|---|
+| For example a weather app might let you choose and display weather information; a firewall app might let you inhibit or monitor a smartphone's connections to the internet. <br> For this functions certain user data might be necessary or useful like geo-data or access to data connections. This data has implications which need to be taken into account at an early stage of development for proper integration of security measures.* |
 
 **Determining the purpose is important for deciding upon the functionality that may be included in the app, and if and how user data needs to be processed.**
 
