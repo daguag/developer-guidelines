@@ -97,7 +97,11 @@ Special categories of data are placed under particular protection of the law.
 
      ​	*consequences on usage = threat to life or freedom of individual*
 
-     ​
+     <br>
+
+     ​|Legal Hint: "Data Protection Level"|
+     |---|
+     | Add legal hint on data protection levels|
 
 #### Sensitive Data
 
