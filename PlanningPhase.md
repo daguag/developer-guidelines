@@ -30,6 +30,10 @@ Especially it is important to carefully think which user data is needed and how 
 |---|
 | For example a weather app might let you choose and display weather information; a firewall app might let you inhibit or monitor a smartphone's connections to the internet. <br> For this functions certain user data might be necessary or useful like geo-data or access to data connections. This data has implications which need to be taken into account at an early stage of development for proper integration of security measures.* |
 
+<br> 
+| "Reference" - Purpose Binding |
+|---|
+| Further information see ENISA p. 55|
 
 ### Intended and Unintended Ways to Use the App
 
