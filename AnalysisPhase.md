@@ -21,6 +21,14 @@ It must be taken into account that **Device-specific information** is subject to
  - User-disabled tracking options must be respected 
      - [ ] *(das ist aber nur opt out, ist an anderer Stelle vielleicht schon erwähnt, also hier nochmal stärker machen - kann auch in anderer Form erwähnt werden, aber ist eben wichtig hier unseren Fokus zu schärfen)*
 
+<br>
+
+| Legal Hint: Personenbeziehbare Daten|
+|---|
+| todo |
+
+Was gilt als personenbezogenes Datum im Kontext Geräteidentifikation. -> Alle eineindeutigen IDs und IP Adresse.
+
 ##Privacy Policy
 
 The processing of personal data makes it necessary to define a **Privacy Policy**. Since the minimum requirements of the local data protection laws have to be fullfilled anyway we suggest to take data protection serious and go a step further to build attractive and competitive apps.
@@ -31,6 +39,8 @@ The processing of personal data makes it necessary to define a **Privacy Policy*
 That's why it is advised to avoid the storage and processing of data where possible*
 
 [comment]:"(Daten auf dem Gerät sind immer auch möglicherweise personalisierbar ... -> grundsätzlich immer möglich Daten für Rückschlüsse nutzbar? -> Datenminimierung)"
+
+- [] Textbox: Legal Hint: Privacy Policy requirements
 
 The definition of a privacy policy implies, but is not limited to:
 
@@ -112,6 +122,8 @@ Where the information on individuals used by the app is particularly comprehensi
 
 (REM: Ergänzeungen vielleicht in einer art Kasten)
 For instance if children or other persons who require particular legal protection are involved, the processing of data might be more restricted than otherwise.
+
+- add Box: Further References...
 
 ## Risk Assessment
 
