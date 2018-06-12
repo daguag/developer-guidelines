@@ -1,12 +1,17 @@
 # Planning Phase
 
-Before you start to code, carefully plan your app: what purpose is it for? Which functions will be needed, what are the use cases?
+Before you start to code, carefully plan your app: what purpose is it for? 
+Which functions will be needed, what are the use cases?
+What kind of data do you need to fulfill the purpose of the app.
+
+In order to testify you carefully weighed the use and necessity of data, you need to document your decisions in a separate document. This will also help you to reconsider your design decisions in a later development phase.
 
 ## Defining the Purpose and Functionality of the App
 
 ### The App's Purpose
 
-What will the app do for the end-user? It might seem obvious, but **it is a good start to take a moment and reconsider what the actual aim of the app is**.
+What will the app do for the end-user? 
+It might seem obvious, but **it is a good start to take a moment and reconsider what the actual aim of the app is**.
 
 - Which functions should the app provide and
 - which user data is necessary for the planned functionality.
@@ -31,15 +36,18 @@ Especially it is important to carefully think which user data is needed and how 
 | For example a weather app might let you choose and display weather information; a firewall app might let you inhibit or monitor a smartphone's connections to the internet. <br> For this functions certain user data might be necessary or useful like geo-data or access to data connections. This data has implications which need to be taken into account at an early stage of development for proper integration of security measures.* |
 
 <br> 
+
 | "Reference" - Purpose Binding |
 |---|
-| Further information see ENISA p. 55|
+| For further information have a look in the  ENISA Report on Privacy and data protection in mobile applications p. 55 |
+
+<br>
 
 ### Intended and Unintended Ways to Use the App
 
 - [ ] is the unintended use a main issue here?
 
-When planning the application design, consider not which purpose you design the app for but also take into account that users might find alternative ways to use the app which can have an impact on other users of the device.
+When planning the application design, not only the obviuos purpose you intended for the app should be taken into account, but also alternative ways to use the app which can have an impact on the user other users of the device.
 
 *For example a firewall app can give you information about other apps' illegitimate connections to the internet. Yet it might also give end users a tool to secretly record and monitor other users' internet activities.*
 
@@ -57,18 +65,30 @@ A privacy-friendly app will only include functionality and permissions that is n
 
 Ideally any permissions that are not strictly necessary to serve the intended purpose should be avoided. Any need for permissions must be explained and justified in a comprehensible way. Take into account that users have no deeper understanding of the dependencies and technical necessities. Only if they really understand why and how the permission is used they can actually give a real consent.
 
- – [ ] should there be a headline with "Analysis of required data"? (or in Analysis Phase?) 
+| BOX: "Legal hint" - Legitimate grounds for the processing of personal data |
+|---|
+| ADD TEXT HERE|
+
 
 ## Defining the sort of data to be used
 
 There are different categories of data which are relevant for the use of the app.
 
- - **Primary Data**: Data related to the end-user or to other data subjects concerned. Apart from personal data, consider content data needed.
- - [ ] is content data different from user generated data?
+ - **Primary Data: Pre-existing data**: Data related to the end-user or to other data subjects concerned. Be aware that on the device might be data which the user has no right to give third parties access to, for instance contact data or pictures of other persons.
 
- - **Secondary Data**: Data will be produced while the app is running. This might be user content (e.g. messages), log data, data related to payment, statistics to authorizing access or other. These will also contain personal data that require protection and thus need to be specified and assessed.
+ - **Secondary Data: User generated data**: Data will be produced while the app is running. This might be user content (e.g. messages), log data, data related to payment, statistics to authorizing access or other. These will also contain personal data that require protection and thus need to be specified and assessed.
 
- - [ ] what's the use of the differentiation of primary/secondary data here?
+| BOX: is there a legal reference here? |
+|---|
+| THEN ADD IT HERE |
+
+## Privacy Policy and Terms of Use
+
+Be aware, that in order to provide transparency about which data of the user is collected and how it is processed and who has access to it, you will need to provide an understandble description and give the user access to its data and options about the ways of processing it.
+
+|BOX: "Legal hint" - Policies and User rights |
+|---|
+|ADD TEXT HERE| 
 
 ---
 END OF DOCUMENT
@@ -78,17 +98,17 @@ END OF DOCUMENT
 ###Things to add:
  - [ ] Check Laws and Regulations applicable to your specific sector of industry
 
- - [ ] Rights and obligations to erase the data collected
+ - [ ] Rights and obligations to erase the data collected -> in the analysis and design phase
 
 ###Pastebin
 
 ####former sections:
 
- - [ ] Data Subjects
+ - [ ] Data Subjects - reference to glossary
 
- - [ ] Processes
+ - [ ] <del>Processes</del>
 
- - [ ] Responsibilities
+ - [ ] Responsibilities - legal hint here?
 
  - [ ] Communication of Purpose / Data Processing Requirement and Protection Measurements
 
