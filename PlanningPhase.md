@@ -35,7 +35,7 @@ Especially it is important to carefully think which user data is needed and how 
 |---|
 | For example a weather app might let you choose and display weather information; a firewall app might let you inhibit or monitor a smartphone's connections to the internet. <br> 
 For this functions certain user data might be necessary or useful like geo-data to give the weather data for the corresponding location or access to the data connections in order to detect malicious data flows. <br>
-However the access to this data has strong implications to the users privacy which need to be taken into account at an early stage of development for proper integration of security measures. There are cases where users do not want their whereabouts to be known to certain indiviuals or groups, such as in the case of policital dissidents in authocratic regimes, or if individuals want to be left alone or * |
+However the access to this data has strong implications to the users privacy which need to be taken into account at an early stage of development for proper integration of security measures. There are cases where users do not want their whereabouts to be known to certain indiviuals or groups, such as in the case of policital dissidents in authocratic regimes, or if individuals want to be left alone for some reasons. * |
 
 <br> 
 
