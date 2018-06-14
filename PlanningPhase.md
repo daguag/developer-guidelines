@@ -33,7 +33,9 @@ Especially it is important to carefully think which user data is needed and how 
 
 | "Example" - Purpose Binding |
 |---|
-| For example a weather app might let you choose and display weather information; a firewall app might let you inhibit or monitor a smartphone's connections to the internet. <br> For this functions certain user data might be necessary or useful like geo-data or access to data connections. This data has implications which need to be taken into account at an early stage of development for proper integration of security measures.* |
+| For example a weather app might let you choose and display weather information; a firewall app might let you inhibit or monitor a smartphone's connections to the internet. <br> 
+For this functions certain user data might be necessary or useful like geo-data to give the weather data for the corresponding location or access to the data connections in order to detect malicious data flows. <br>
+However the access to this data has strong implications to the users privacy which need to be taken into account at an early stage of development for proper integration of security measures. There are cases where users do not want their whereabouts to be known to certain indiviuals or groups, such as in the case of policital dissidents in authocratic regimes, or if individuals want to be left alone or * |
 
 <br> 
 
@@ -47,13 +49,21 @@ Especially it is important to carefully think which user data is needed and how 
 
 - [ ] is the unintended use a main issue here?
 
-When planning the application design, not only the obviuos purpose you intended for the app should be taken into account, but also alternative ways to use the app which can have an impact on the user other users of the device.
+When planning the application design, not only the obvious purpose you intended for the app should be taken into account, but also alternative ways to use the app which can have an impact on the user other users of the device.
 
 *For example a firewall app can give you information about other apps' illegitimate connections to the internet. Yet it might also give end users a tool to secretly record and monitor other users' internet activities.*
+
+[comment: better example: babyphone / tracking to spy on users instead of monitor child care]
 
 **Be creative about potentially harmful ways to use of your app. Think about safeguards against illegitimate uses.**
 
 *For example in the case of a firewall app a notification about the monitoring activity in the background would give the user transparency.*
+
+Not only people with physical access to the device can make use of the app, and the data generated. Other apps might have access to shared memory, service providers might use the data in unintended ways, and finally governments might get access to data stored by the service providers or on the device.
+
+*For example third party apps might get access to pictures taken on political manifestations, or governments might be interested in the social-graph included in the contact list or regular whereabouts to trace political opponents.*
+
+**The safest data is data which is not collected or stored.**
 
 ## Defining the App's Functionality and Permissions
 
@@ -84,7 +94,7 @@ There are different categories of data which are relevant for the use of the app
 
 ## Privacy Policy and Terms of Use
 
-Be aware, that in order to provide transparency about which data of the user is collected and how it is processed and who has access to it, you will need to provide an understandble description and give the user access to its data and options about the ways of processing it.
+Be aware, that in order to provide transparency about which data of the user is collected and how it is processed and who has access to it, you will need to provide an understandable description and give the user access to its data and options about the ways of processing it.
 
 |BOX: "Legal hint" - Policies and User rights |
 |---|
