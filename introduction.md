@@ -12,13 +12,15 @@ Depending on the use cases of your app, different things need to be considered a
 
 **This guideline outlines the relevant concepts to find out where protection of data comes into play and how!**
 
-The goal of the document is to act as an interface between technical solutions and legal aspects, references to both are given to dive deeper into the subjects if you got curious. \[comment\]:"legal foundation, not only aspects, enable you to be compliant"
+The goal of the document is to act as an interface between technical solutions and legal foundations in order to help you to be be compliant with legal obligations. We try to cut it down to the basics, and give you references to dive deeper into the subjects if you got curious.
 
-The legal aspects in this document are based on the _General Data Protection Regulation_ \(GDPR\), which becomes effective in May 25, 2018.
+The legal aspects in this document are based on the _General Data Protection Regulation_ \(GDPR\), which became effective in May 25, 2018. The legal framework obliges you to act carefully and responsibly with the data of your users. It provides a legal basis for taking reasonable steps to protect the data and your users.
 
 ## In very short at your fingertips...
 
-\[comment\]:"add here a one page summary of the content and motivate a structured development along the lines outlined in the rest of the document. give hints to papers and material referenced and attached to this document"
+In every step of developing your app, you need to consider which risks arise through collecting and processing user data. 
+
+> \[comment\]:"add here a one page summary of the content and motivate a structured development along the lines outlined in the rest of the document. give hints to papers and material referenced and attached to this document"
 
 ## Document Structure
 
@@ -63,6 +65,7 @@ A background in security and privacy protection is not required. Background info
 
 * after each Development Phase the risk needs to be reassessed
 
+***
 END OF DOCUMENT
 
 DISCUSSION SPACE
