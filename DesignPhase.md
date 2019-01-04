@@ -94,7 +94,7 @@ In certain cases, like the processing of sensitive data or bulk processing of pe
 
 
 ## Common problems in the context of application development
-Especially if data is exchanged with 3rd parties you should evaluate the transmission channels and the kind of information which is exchanged
+Especially if data is exchanged with 3rd parties you should evaluate the transmission channels and the kind of information which is exchanged.
 
 * Data receiving 
   * How is data collected or received?
