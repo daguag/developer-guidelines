@@ -94,39 +94,43 @@ In certain cases, like the processing of sensitive data or bulk processing of pe
 
 
 ## Common problems in the context of application development
-Especially if data is exchanged with 3rd parties you should evaluate the transmission channels and the kind of information which is exchanged.
+
+There are common problems you should be aware of when designing your application.
 
 * Data receiving 
-  * How is data collected or received?
-  * Are the connections secure?
-  * Is metadata generated which might reveal personal information?
-  * [[REM]]("add?: is executable code reveived?")
+    * How is data collected or received?
+    * Are the connections secure?
+    * Is metadata generated which might reveal personal information?
+    * [[REM]]("add?: is executable code received?")
 
 * Data sending
-  *  How is data transmitted to other apps and servers?
-  *  Are connections secure?
-  *  Is it necessary to send the data?
-  *  Can the transmission be manipulated?
+    *  How is data transmitted to other apps and servers?
+    *  Are connections secure?
+    *  Is it necessary to send the data?
+    *  Can the transmission be manipulated?
 
 * Data processing 
-  * How is the data used and processed?
-  * Are decisions made which might affect the fundamental rights of users and others?
-  * Do you build behavioural models which might affect the freedom of action of individuals? [[REM]]("elaborate or examples needed here")
+    * How is the data used and processed?
+    * Are decisions made which might affect the fundamental rights of users and others?
+    * Do you build behavioural models which might affect the freedom of action of individuals? [[REM]]("elaborate or examples needed here")
 
-* Interaction with 3rd parties? 
-  * In case of interaction, e.g. during paying functions, take into account the 
-  * Yes? (z.B. beim Bezahlvorgang (paypal / Kreditinstitut etc.))
-    * back to point -> "how can the following steps possibly help?"
+Especially if data is exchanged with 3rd parties you should evaluate the transmission channels and the kind of information which is exchanged.
 
-    *(Arbeitsnotizen:)*
-*(TODO Verbinden von Problemen und technischen Umsetzungsmöglichkeiten. Welche Optionen existieren, wo sind sie angebracht und welche Implikationen haben sie.)*
-*(zB Vermeidung eines jeden Datenabflusses, hier gute Beispiele einbringen: Wetterapp, genau oder ungenau, nächste Wetterstation, Rasterung, etc)*
-*(-> Designentscheidungen sollen hier wohl überlegt sein.)*
-*(Bewertung von Daten? Oder: alle Daten sind immer sensibel?)*
-*(-> nur wenn nötig nur für den bestimmten Zweck und nur möglichst sicher verarbeitet....)*
-*(als App-Entwickler weiss man gar nicht wo am Ende aggregierte Daten verwendet werden)*
+* Is the 3rd party trustworthy? 
+* Is the connection secure?
+* Is the transmission necessary or are there other ways to fulfill the goal?
+
+[[REM]]("add examples to clarify the problems described here")
+| Example: SatNav App|
+| Data receiving| Which data is collected from the device? Which data is received: the download of certain parts of the map for instance reveals the location of the user. |
+| Data sending | Where is the location information send to? Which other information is sent? Which information is deferrable, e.g. speed and direction. How exact needs the location data be for the Map server? Which data can stay on the device in order to reduce information security risks?|
+| Data processing | The model built from the aggregated behaviour of users informs which users routed in which ways. Are you building profiles? Are the areas where users are not routed? What criteria flow in the computation of the route? Do you really now which information will be stored by 3rd parties and how they will use it?|
+
+You need to keep in mind that you cmp
 
 ## Technical Measures
+[[REM]]("TODO: Link technical measures to problems arised in the section above")
+
 Which technical measures can be applied to address the identified risks.
 Possible counter measures include:
 
