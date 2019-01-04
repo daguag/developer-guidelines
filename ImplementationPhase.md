@@ -1,12 +1,14 @@
 # Implementation and documenting Phase
 
-[comment]:"trifft das denn Sinn der Section?"
+[[REM]]("here we will give examples how to implement privacy enhancing functions with the PLib")
+
 In this phase, the developers create the software code and documentation for the project.
+
  * [ ] explain some essentials in the subsections before referencing to external documents...
 
 ## Established Best Practices
 
-To establish and follow the best practises of software development the programmers should be aware of security and privacy recommendations. Please refer to the “Smartphone Secure Development Guidelines for App Developers” or “Privacy and Data Protection by Design – from policy to engineering” for further information on those topics. (LINKS)
+To establish and follow the best practices of software development the programmers should be aware of security and privacy recommendations. We shortly list some essential concepts. For more detailed descriptions we recommend to read  [Smartphone Secure Development Guidelines for App Developers](https://www.enisa.europa.eu/publications/smartphone-secure-development-guidelines) or [Privacy and Data Protection by Design – from policy to engineering](https://www.enisa.europa.eu/publications/privacy-and-data-protection-by-design).
 
 ### Test-Driven Development
 
@@ -14,15 +16,22 @@ To verify the correctness of the implementation the software should be tested. I
 
 ### Continuous Integration
 
-When several programmers work on the same code the risk of conflicting contributions to the code base by different programmers arises. Those conflicts arise due to modifications of the existing code base or by adding new code and dependencies to the project. To avoid these problems a best practise known as “Continuous Integration (CI)” can be applied, where developers integrate their contributions early and often into the common code base.
+When several programmers work on the same code the risk of conflicting contributions to the code base by different programmers arises. Those conflicts arise due to modifications of the existing code base or by adding new code and dependencies to the project. To avoid these problems a best practice known as “Continuous Integration (CI)” can be applied, where developers integrate their contributions early and often into the common code base.
+  [[REM]]("add short summarizing sentence for CI and reference")
 
 ### Proper Documentation
 
 A technical documentation of the code may contain information about what a code does and how it does it, its dependencies and where this code is required. These documentations are valuable for the programmers and the maintainers of a specific code base and should be written along with the implementation of the code.
+  [[REM]]("add what you need to do here in detail, examples...")
+  [[REM]](" otherwise: too generic")
 
 ### Take Care of Third Party Code
 
-The use of third party code / services may be beneficial or even necessary for the implementation of a software project. The integration of such code or service into a software project comes along with additional dependencies. To sustain the quality of the software project the third party code / service should be checked whether it fulfils the given privacy and security requirements. If a third party code is no longer maintained, this can lead to security and compatibility issues. In those cases, it is recommended to self-maintain such code. Besides the technical integration of third party code / services one should verify that the licence, under which the usage of a third party code / service is allowed, integrates with the software project.
+The use of third party code / services may be beneficial or even necessary for the implementation of a software project. The integration of such code or service into a software project comes along with additional dependencies. To sustain the quality of the software project the third party code / service should be checked whether it fulfills the given privacy and security requirements. 
+
+  [comment:] Also: How is third party code used??? -> e.g. deactivation of unnecessary features (!) 
+
+If a third party code is no longer maintained, this can lead to security and compatibility issues. In those cases, it is recommended to self-maintain such code. Besides the technical integration of third party code / services one should verify that the license, under which the usage of a third party code / service is allowed, integrates with the software project.
 
 ### Reconsider Preceding Phases Where Necessary
 
@@ -30,7 +39,7 @@ If during the implementation phase challenges arise which require to deviate fro
 
 
 ## **The Privacy Library and Privacy-enhanced Technologies** 
-[comment]:"(Werbeblock)"
+[[REM]]("Add examples for PLib")
 
 The Privacy Library \(plib\) is a development library one can integrate into the app development environment. The plib contains a collection of various methods, separated into two classes: i\) methods for ensuring self-determination about privacy-related data and ii\) methods offering various security-related functions including complex privacy-enhanced technologies \(PETs\).
 
