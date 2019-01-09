@@ -126,7 +126,7 @@ Especially if data is exchanged with 3rd parties you should evaluate the transmi
 | Data sending | Where is the location information send to? Which other information is sent? Which information is deferrable, e.g. speed and direction. How exact needs the location data be for the Map server? Which data can stay on the device in order to reduce information security risks?|
 | Data processing | The model built from the aggregated behaviour of users informs which users routed in which ways. Are you building profiles? Are the areas where users are not routed? What criteria flow in the computation of the route? Do you really now which information will be stored by 3rd parties and how they will use it?|
 
-You need to keep in mind that you cmp
+You need to keep in mind that you comply with the data protection principles of data minimisation and purpose binding [[REM]]("explain in more detail? e.g. Erhebungsgrundlage etc.")
 
 ## Technical Measures
 [[REM]]("TODO: Link technical measures to problems arised in the section above")
@@ -138,7 +138,7 @@ Possible counter measures include:
 * Anonymisation
 * Pseudonymisation
 
-*(-> PLib (!) Beispiele sind hier ein guter Anknüpfungspunkt)*
+*(-> PLib (!) Beispiele sind hier ein guter Anknüpfungspunkt) or take the concrete functions with plib examples in the implementation section* 
 
 |Legal Hint: "Data Deletion"|
 |---|
